@@ -1,0 +1,131 @@
+#dropdownBtn {
+    cursor: pointer;
+    width: 130px;
+    padding: 5px;
+}
+#dropdownBtn:hover {
+    border: 3px solid black;
+    border-radius: 30px;
+}
+#customDropdown {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 130px;
+    margin-top: -9px;
+}
+#customDropdown li {
+    color: rgba(206, 203, 203, 0.952);
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+#customDropdown li:hover {
+    cursor: pointer;
+}
+.li-elements-css a {
+    font-size: 1.5em;
+}
+#donate {
+    font-size: 1.25em;
+}
+.li-elements-css a:hover {
+    border: 3px solid black;
+    border-radius: 30px;
+    transform: scale(1.2);
+ 
+}
+
+#donate:hover{
+border-bottom: 5px solid rgb(139, 117, 139);
+}
+.arrowIlija {
+    border: solid white; 
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 5px;
+    display: none;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+@media (max-width: 768px) {
+    .li-elements-css a:hover {
+        transform: scale(0);
+    }
+}
+/* services */
+.nav-item {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+    .underline {
+    position: absolute;
+    bottom: -4px;
+    /height: 3px;
+    background-color: #fb5e3c;
+    border-radius: 9999px;
+    transition: transform 0.3s ease, width 0.3s ease;
+    width: 100%;
+    left: 0;
+}
+
+.nav-item.active ~ .underline {
+    transform: translateX(0);
+}
+
+.nav-item:nth-child(2).active ~ .underline {
+    transform: translateX(110px);
+}
+
+.nav-item:nth-child(3).active ~ .underline {
+    transform: translateX(230px);
+}
+/*  */
+
+
+.underline {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    background-color: #fb5e3c;
+    border-radius: 9999px;
+    transition: transform 0.3s ease, width 0.3s ease;
+    margin-left: 0 !important;
+}
+
+.nav-item_ilija {
+    position: relative;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.underline_ilija {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    background-color: #fb5e3c;
+    border-radius: 9999px;
+    transition: transform 0.3s ease, width 0.3s ease;
+    margin-left: 0 !important;
+}
+
+#form_donations{
+ display: block;
+
+}
+#currency_select {
+    margin-left: 15px;
+}
+
+.form-submit-button:hover {
+    background-color: rgba(255, 79, 40, 255);
+    border-bottom: 3px solid rgb(156, 22, 22);
+}
+
+.arrows-homepage-ilija{
+    color: #fb5e3c;
+    border-radius: 99999px !important;
+}
